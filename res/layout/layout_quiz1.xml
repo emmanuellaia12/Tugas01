@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView
+        android:id="@+id/tvjudulquiz1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Quiz 1"
+        />
+    <EditText
+        android:id="@+id/etquiz11"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvjudulquiz1"
+        android:hint="Silahkan Masukkan Nilai A"  
+        />
+    <EditText
+        android:id="@+id/etquiz12"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etquiz11"
+        android:hint="Silahkan Masukkan Nilai B"
+        />
+    <Button
+        android:id="@+id/btnbanding"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etquiz12"
+        android:text="Bandingkan"
+        />
+    <TextView
+         android:id="@+id/tvhasilbanding"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_below="@+id/btnbanding"
+        />
+
+</RelativeLayout>
